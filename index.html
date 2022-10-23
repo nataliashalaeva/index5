@@ -1,1 +1,76 @@
 
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+
+  <script src="script.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <title>Калькулятор Наты</title>
+</head>
+
+<body>
+
+  <div class="col-sm-12 text-center col-md-5 mx-auto mt-5 p-5 bg-light rounded">
+    <h1>Калькулятор</h1>
+    <form name="calculator" onsubmit="return false;">
+
+      <div class="row m-2">
+        <div class="col-md-3 text-right">
+          <h4>Товар</h2>
+                </div>
+                <div class="col-md-3 text-left">
+                     <h4>Цена</h4>
+        </div>
+        <div class="col-md-2 text-left">
+          <h4>Количество</h4>
+        </div>
+      </div>
+
+      <div class="row m-2">
+        <div class="col-md-3 text-left">
+          <h6>Ручки</h6>
+        </div>
+        <div class="col-md-3 text-left ">
+          <input name="p1" type="text" value="20">
+        </div>
+        <div class="col-md-2 text-left">
+          <input name="q1" type="text" value="">
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-md-3 text-left">
+          <h6>Карандаши</h6>
+        </div>
+        <div class="col-md-3 text-left">
+          <input name="p2" type="text" value="10">
+        </div>
+        <div class="col-md-2 text-left">
+          <input name="q2" type="text" value="">
+        </div>
+      </div>
+      <div class="row m-2">
+        <div class="col-md-3 text-left">
+          <h6>Тетради</h6>
+        </div>
+        <div class="col-md-3 text-left">
+          <input name="p3" type="text" value="100">
+        </div>
+        <div class="col-md-2 text-left">
+          <input name="q3" type="text" value="">
+        </div>
+      </div>
+      <button id="my-button">Итог</button>
+    </form>
+    <div class="pt_2" id="result"></div>
+  </div>
+</body>
+
+</html>
